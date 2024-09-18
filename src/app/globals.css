@@ -43,6 +43,20 @@
   transform: translateX(-50%);
 }
 
+@keyframes ease-in-out {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
 
 @keyframes wave {
   0% {
